@@ -1,0 +1,17 @@
+{
+  "name": "exportfiles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "js-yaml": "^3.13.1",
+    "turndown": "^5.0.3"
+  }
+}
