@@ -4,7 +4,6 @@ const yaml = require('js-yaml');
 const fs = require('fs');
 const turndownService = new TurndownService();
 
-
 fetch('http://testsite.local/wp-json/wp/v2/posts')
     .then( r => r.json() )
     .then( posts => {
